@@ -1,17 +1,23 @@
 {
   "name": "octocat-syntax",
-  "theme": "syntax",
   "version": "0.1.5",
   "description": "Octocat syntax theme for Atom with GitHub flavoured highlighting",
-  "keywords": [
-    "syntax",
-    "theme",
-    "github",
-    "octocat"
-  ],
-  "repository": "https://github.com/vinkla/octocat-syntax",
+  "theme": "syntax",
   "license": "MIT",
+  "repository": "vinkla/octocat-syntax",
+  "author": {
+    "name": "Vincent Klaiber",
+    "email": "hello@vinkla.com",
+    "url": "vinkla.com"
+  },
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
-  }
+    "atom": ">=1.10.0"
+  },
+  "keywords": [
+    "atom",
+    "octocat",
+    "github",
+    "syntax",
+    "theme"
+  ]
 }

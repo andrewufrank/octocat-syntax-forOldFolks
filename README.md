@@ -4,10 +4,10 @@
 
 Octocat syntax theme for Atom with GitHub flavoured highlighting.
 
-```bash
+```sh
 apm install octocat-syntax
 ```
 
 ## License
 
-Octocat Syntax is licensed under [The MIT License (MIT)](LICENSE).
+[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)
