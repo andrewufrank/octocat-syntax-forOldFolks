@@ -4,7 +4,7 @@
   "description": "Octocat syntax theme for Atom with GitHub flavoured highlighting",
   "theme": "syntax",
   "license": "MIT",
-  "repository": "vinkla/octocat-syntax",
+  "repository": "vinkla/atom-octocat-syntax",
   "author": {
     "name": "Vincent Klaiber",
     "email": "hello@vinkla.com",
