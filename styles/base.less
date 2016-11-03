@@ -73,11 +73,11 @@
     color: #969896;
   }
 
-  .constant, .variable.other.constant {
+  .constant,
+  .variable.readwrite.js,
+  .variable.object.js,
+  .variable.other.constant {
     color: #0086b3;
-  }
-
-  .keyword.operator.symbole, .keyword.other.mark {
   }
 
   .entity, .entity.name {
@@ -86,6 +86,10 @@
 
   .variable.parameter.function {
     color: #333;
+  }
+
+  .variable.this.js {
+    color: #ed6a43;
   }
 
   .entity.name.tag {
@@ -106,9 +110,6 @@
 
   .string, .punctuation.definition.string, .string .punctuation.section.embedded .source {
     color: #183691;
-  }
-
-  .string.unquoted.import.ada {
   }
 
   .support {
@@ -224,5 +225,9 @@
 
   .meta.output {
     color: #1d3e81;
+  }
+
+  .meta.parameters .variable {
+    color: #0086b3;
   }
 }
