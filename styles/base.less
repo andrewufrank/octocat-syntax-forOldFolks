@@ -78,15 +78,15 @@ atom-text-editor {
 
   .syntax--support { color: #0086b3; }
 
-  .syntax--meta.property-name { color: #0086b3; }
+  .syntax--meta.syntax--property-name { color: #0086b3; }
 
   .syntax--variable { color: #333; }
 
   .syntax--variable.syntax--other { color: #333; }
 
-  .invalid.syntax--deprecated { color: #b52a1d; }
+  .syntax--invalid.syntax--deprecated { color: #b52a1d; }
 
-  .invalid.syntax--illegal {
+  .syntax--invalid.syntax--illegal {
     font-style: italic;
     text-decoration: underline;
     color: #f8f8f8;
@@ -140,23 +140,23 @@ atom-text-editor {
   .syntax--markup.syntax--raw { color: #0086b3; }
 
   .syntax--markup.syntax--deleted,
-  .syntax--meta.diff.syntax--header.syntax--from-file {
+  .syntax--meta.syntax--diff.syntax--header.syntax--from-file {
     color: #bd2c00;
     background-color: #ffecec;
   }
 
   .syntax--markup.syntax--inserted,
-  .syntax--meta.diff.syntax--header.syntax--to-file {
+  .syntax--meta.syntax--diff.syntax--header.syntax--to-file {
     color: #55a532;
     background-color: #eaffea;
   }
 
-  .syntax--meta.diff.syntax--range {
+  .syntax--meta.syntax--diff.syntax--range {
     font-weight: bold;
     color: #795da3;
   }
 
-  .syntax--meta.diff.syntax--header { color: #0086b3; }
+  .syntax--meta.syntax--diff.syntax--header { color: #0086b3; }
 
   .syntax--meta.syntax--separator {
     font-weight: bold;
@@ -165,5 +165,5 @@ atom-text-editor {
 
   .syntax--meta.syntax--output { color: #1d3e81; }
 
-  .syntax--meta.parameters .syntax--variable { color: #0086b3; }
+  .syntax--meta.syntax--parameters .syntax--variable { color: #0086b3; }
 }
