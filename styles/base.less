@@ -14,50 +14,31 @@ atom-text-editor {
     color: @syntax-gutter-text-color-selected;
   }
 
-  .has-selection .gutter .line-number.cursor-line {
-    background-color: @syntax-selection-color
-  }
+  .has-selection .gutter .line-number.cursor-line { background-color: @syntax-selection-color }
 
-  .gutter .line-number.cursor-line-no-selection {
-    color: @syntax-gutter-text-color-selected;
-  }
+  .gutter .line-number.cursor-line-no-selection { color: @syntax-gutter-text-color-selected; }
 
-  .wrap-guide {
-    color: @syntax-wrap-guide-color;
-  }
+  .wrap-guide { color: @syntax-wrap-guide-color; }
 
-  .indent-guide {
-    color: @syntax-indent-guide-color;
-  }
+  .indent-guide { color: @syntax-indent-guide-color; }
 
-  .invisible-character {
-    color: @syntax-invisible-character-color;
-  }
+  .invisible-character { color: @syntax-invisible-character-color; }
 
-  .search-results .marker .region {
+  .search-results .syntax--marker .region {
     background-color: transparent;
     border: @syntax-result-marker-color;
   }
 
-  .search-results .marker.current-result .region {
-    border: @syntax-result-marker-color-selected;
-  }
+  .search-results .syntax--marker.current-result .region { border: @syntax-result-marker-color-selected; }
 
-  .cursor {
-    border-color: @syntax-cursor-color;
-  }
+  .cursor { border-color: @syntax-cursor-color; }
 
-  .line-number.cursor-line-no-selection, .line.cursor-line {
-    background-color: @syntax-highlight-line-color;
-  }
+  .line.cursor-line,
+  .line-number.cursor-line-no-selection { background-color: @syntax-highlight-line-color; }
 
-  .line.highlight-line {
-    background: @syntax-highlight-line-color !important;
-  }
+  .line.highlight-line { background: @syntax-highlight-line-color !important; }
 
-  .has-selection .line.highlight-line {
-    background: transparent !important;
-  }
+  .has-selection .line.highlight-line { background: transparent !important; }
 
   .highlights .highlight-selected .region {
     background: transparent;
@@ -65,169 +46,124 @@ atom-text-editor {
     border-radius: 2px;
   }
 
-  .highlights .selection .region {
-    background-color: @syntax-selection-color;
-  }
+  .highlights .selection .region { background-color: @syntax-selection-color; }
 
-  .comment {
-    color: #969896;
-  }
+  .syntax--comment { color: #969896; }
 
-  .constant,
-  .variable.readwrite.js,
-  .variable.object.js,
-  .variable.other.constant {
-    color: #0086b3;
-  }
+  .syntax--constant,
+  .syntax--variable.syntax--readwrite.syntax--js,
+  .syntax--variable.syntax--object.syntax--js,
+  .syntax--variable.syntax--other.syntax--constant { color: #0086b3; }
 
-  .entity, .entity.name {
-    color: #795da3;
-  }
+  .syntax--entity, .syntax--entity.syntax--name { color: #795da3; }
 
-  .variable.parameter.function {
-    color: #333;
-  }
+  .syntax--variable.syntax--parameter.syntax--function { color: #333; }
 
-  .variable.this.js {
-    color: #ed6a43;
-  }
+  .syntax--variable.syntax--this.syntax--js { color: #ed6a43; }
 
-  .entity.name.tag {
-    color: #63a35c;
-  }
+  .syntax--entity.syntax--name.syntax--tag { color: #63a35c; }
 
-  .keyword {
-    color: #a71d5d;
-  }
+  .syntax--keyword { color: #a71d5d; }
 
-  .storage, .storage.type {
-    color: #a71d5d;
-  }
+  .syntax--storage,
+  .syntax--storage.syntax--type { color: #a71d5d; }
 
-  .storage.modifier.package, .storage.modifier.import, .storage.type.java {
-    color: #333;
-  }
+  .syntax--storage.syntax--modifier.syntax--package,
+  .syntax--storage.syntax--modifier.syntax--import,
+  .syntax--storage.syntax--type.syntax--java { color: #333; }
 
-  .string, .punctuation.definition.string, .string .punctuation.section.embedded .source {
-    color: #183691;
-  }
+  .syntax--string,
+  .syntax--punctuation.syntax--definition.syntax--string,
+  .syntax--string .syntax--punctuation.syntax--section.syntax--embedded .syntax--source { color: #183691; }
 
-  .support {
-    color: #0086b3;
-  }
+  .syntax--support { color: #0086b3; }
 
-  .meta.property-name {
-    color: #0086b3;
-  }
+  .syntax--meta.property-name { color: #0086b3; }
 
-  .variable {
-    color: #333;
-  }
+  .syntax--variable { color: #333; }
 
-  .variable.other {
-    color: #333;
-  }
+  .syntax--variable.syntax--other { color: #333; }
 
-  .invalid.deprecated {
-    color: #b52a1d;
-  }
+  .invalid.syntax--deprecated { color: #b52a1d; }
 
-  .invalid.illegal {
+  .invalid.syntax--illegal {
     font-style: italic;
     text-decoration: underline;
     color: #f8f8f8;
     background-color: #b52a1d;
   }
 
-  .string .source {
-    color: #333;
-  }
+  .syntax--string .syntax--source { color: #333; }
 
-  .string .variable {
-    color: #0086b3;
-  }
+  .syntax--string .syntax--variable { color: #0086b3; }
 
-  .string.regexp {
+  .syntax--string.syntax--regexp { color: #183691; }
+
+  .syntax--string.syntax--regexp.syntax--character-class,
+  .syntax--string.syntax--regexp .syntax--constant.syntax--character.syntax--escape,
+  .syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded,
+  .syntax--string.syntax--regexp .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
     color: #183691;
   }
 
-  .string.regexp.character-class, .string.regexp .constant.character.escape, .string.regexp .source.ruby.embedded, .string.regexp .string.regexp.arbitrary-repitition {
-    color: #183691;
-  }
-
-  .string.regexp .constant.character.escape {
+  .syntax--string.syntax--regexp .syntax--constant.syntax--character.syntax--escape {
     font-weight: bold;
     color: #63a35c;
   }
 
-  .support.constant {
-    color: #0086b3;
-  }
+  .syntax--support.syntax--constant { color: #0086b3; }
 
-  .support.variable {
-    color: #0086b3;
-  }
+  .syntax--support.syntax--variable { color: #0086b3; }
 
-  .meta.module-reference {
-    color: #0086b3;
-  }
+  .syntax--meta.syntax--module-reference { color: #0086b3; }
 
-  .markup.list {
-    color: #693a17;
-  }
+  .syntax--markup.syntax--list { color: #693a17; }
 
-  .markup.heading, .markup.heading .entity.name {
+  .syntax--markup.syntax--heading,
+  .syntax--markup.syntax--heading .syntax--entity.syntax--name {
     font-weight: bold;
     color: #1d3e81;
   }
 
-  .markup.quote {
-    color: #008080;
-  }
+  .syntax--markup.syntax--quote { color: #008080; }
 
-  .markup.italic {
+  .syntax--markup.syntax--italic {
     font-style: italic;
     color: #333;
   }
 
-  .markup.bold {
+  .syntax--markup.syntax--bold {
     font-weight: bold;
     color: #333;
   }
 
-  .markup.raw {
-    color: #0086b3;
-  }
+  .syntax--markup.syntax--raw { color: #0086b3; }
 
-  .markup.deleted, .meta.diff.header.from-file {
+  .syntax--markup.syntax--deleted,
+  .syntax--meta.diff.syntax--header.syntax--from-file {
     color: #bd2c00;
     background-color: #ffecec;
   }
 
-  .markup.inserted, .meta.diff.header.to-file {
+  .syntax--markup.syntax--inserted,
+  .syntax--meta.diff.syntax--header.syntax--to-file {
     color: #55a532;
     background-color: #eaffea;
   }
 
-  .meta.diff.range {
+  .syntax--meta.diff.syntax--range {
     font-weight: bold;
     color: #795da3;
   }
 
-  .meta.diff.header {
-    color: #0086b3;
-  }
+  .syntax--meta.diff.syntax--header { color: #0086b3; }
 
-  .meta.separator {
+  .syntax--meta.syntax--separator {
     font-weight: bold;
     color: #1d3e81;
   }
 
-  .meta.output {
-    color: #1d3e81;
-  }
+  .syntax--meta.syntax--output { color: #1d3e81; }
 
-  .meta.parameters .variable {
-    color: #0086b3;
-  }
+  .syntax--meta.parameters .syntax--variable { color: #0086b3; }
 }
