@@ -77,10 +77,11 @@ atom-text-editor {
 .syntax--entity, .syntax--entity.syntax--name { color: @purple; }
 .syntax--entity.syntax--name.syntax--tag { color: @green; }
 
-.syntax--keyword { color: #a71d5d; }
+.syntax--keyword { color: @magenta; }
+.syntax--keyword.syntax--accessor { color: @dark-gray; }
 
 .syntax--storage,
-.syntax--storage.syntax--type { color: #a71d5d; }
+.syntax--storage.syntax--type { color: @magenta; }
 .syntax--storage.syntax--modifier.syntax--package,
 .syntax--storage.syntax--modifier.syntax--import,
 .syntax--storage.syntax--type.syntax--java { color: @dark-gray; }
@@ -104,6 +105,8 @@ atom-text-editor {
 .syntax--support.syntax--constant,
 .syntax--support.syntax--variable { color: @blue; }
 
+
+.syntax--meta.syntax--property,
 .syntax--meta.syntax--property-name { color: @blue; }
 
 .syntax--invalid.syntax--deprecated { color: @dark-red; }
