@@ -67,10 +67,14 @@ atom-text-editor {
 
 .syntax--comment { color: @gray; }
 
+.syntax--js.syntax--null,
+.syntax--js.syntax--constant,
+.syntax--js.syntax--language { color: $blue; }
+
 .syntax--constant,
 .syntax--variable.syntax--readwrite.syntax--js,
-.syntax--variable.syntax--object.syntax--js,
 .syntax--variable.syntax--other.syntax--constant { color: @blue; }
+.syntax--variable.syntax--object.syntax--js,
 .syntax--variable.syntax--other { color: @dark-gray; }
 .syntax--variable.syntax--parameter.syntax--function { color: @dark-gray; }
 .syntax--variable.syntax--this.syntax--js { color: @orange; }
@@ -79,7 +83,6 @@ atom-text-editor {
 .syntax--entity, .syntax--entity.syntax--name { color: @purple; }
 .syntax--entity.syntax--name.syntax--tag { color: @green; }
 
-.syntax--entity.syntax--name.syntax--function.syntax--js { color: @blue; }
 .syntax--entity.syntax--name.syntax--function.syntax--method.syntax--js { color: @purple; }
 
 .syntax--keyword { color: @magenta; }
