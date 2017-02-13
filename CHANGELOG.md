@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 1.1.0 (released 2017-02-13)
+## 1.3.0 (released 2017-02-13)
 
 - Updated JavaScript syntax
 
