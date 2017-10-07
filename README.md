@@ -1,6 +1,6 @@
 # Octocat Syntax
 
-![octocat](https://cloud.githubusercontent.com/assets/499192/11710436/7965dc4e-9f1f-11e5-81dd-0a344c90c50a.png)
+![octocat](https://user-images.githubusercontent.com/499192/31310597-38164b40-ab9b-11e7-8e3a-29991c555665.png)
 
 Octocat syntax theme for Atom with GitHub flavoured highlighting.
 
