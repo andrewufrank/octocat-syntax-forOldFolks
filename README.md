@@ -5,7 +5,7 @@
 Octocat syntax theme for Atom with GitHub flavoured highlighting.
 
 ```sh
-apm install octocat-syntax
+$ apm install octocat-syntax
 ```
 
 ## License
