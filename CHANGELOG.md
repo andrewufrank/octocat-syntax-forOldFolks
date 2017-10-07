@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.0 (released 2017-10-07)
+
+- Update github colors
+
 ## 1.3.1 (released 2017-02-13)
 
 - Updated JavaScript syntax
