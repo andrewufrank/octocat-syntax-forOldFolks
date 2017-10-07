@@ -1,6 +1,6 @@
 {
   "name": "octocat-syntax",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Octocat syntax theme for Atom with GitHub flavoured highlighting",
   "theme": "syntax",
   "license": "MIT",
