@@ -21,6 +21,6 @@
     "theme"
   ],
   "dependencies": {
-    "github-atom-light-syntax": "primer/github-atom-light-syntax"
+    "github-atom-light-syntax": "github:primer/github-atom-light-syntax"
   }
 }
