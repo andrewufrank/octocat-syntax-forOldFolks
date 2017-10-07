@@ -1,1 +1,22 @@
-@import './styles/base.less';
+@import './node_modules/github-atom-light-syntax/index.less';
+
+.syntax--php {
+  // Fix variable color.
+  .syntax--variable.syntax--php { color: #24292e; }
+
+  // Fix static function color.
+  .syntax--static .syntax--function { color: #24292e; }
+
+  .syntax--function-call .syntax--function { color: #005cc5; }
+
+  // Fix method call color.
+  .syntax--method-call .syntax--function { color: #24292e; }
+
+  // Fix return type colon color.
+  .syntax--return-value { color: #24292e; }
+
+  // Fix phpdoc type color.
+  .syntax--phpdoc {
+    .syntax--type, .syntax--class, .syntax--namespace { color: #6a737d; }
+  }
+}
