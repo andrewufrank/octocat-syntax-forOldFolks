@@ -10,7 +10,9 @@ atom-text-editor .wrap-guide { background-color: #eaecef; }
   // Fix static function color.
   .syntax--static .syntax--function { color: #24292e; }
 
-  .syntax--function-call > .syntax--function { color: #005cc5; }
+  // Fix function name color.
+  .syntax--function-call > .syntax--function.syntax--name,
+  .syntax--function-call > .syntax--function.syntax--support { color: #005cc5; }
 
   // Fix method call color.
   .syntax--method-call .syntax--function { color: #24292e; }
