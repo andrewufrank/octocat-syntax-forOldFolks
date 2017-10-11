@@ -1,27 +1,32 @@
 @import './node_modules/github-atom-light-syntax/index.less';
 
-// Fix wrap guide color.
-atom-text-editor .wrap-guide { background-color: #eaecef; }
+atom-text-editor {
+  // Fix wrap guide color.
+  .wrap-guide { background-color: #eaecef; }
 
-.syntax--php {
-  // Fix variable color.
-  .syntax--variable.syntax--php { color: #24292e; }
+  // Fix jsdoc type color.
+  .syntax--jsdoc { color: #6f42c1; }
 
-  // Fix static function color.
-  .syntax--static .syntax--function { color: #24292e; }
+  .syntax--php {
+    // Fix variable color.
+    .syntax--variable.syntax--php { color: #24292e; }
 
-  // Fix function name color.
-  .syntax--function-call > .syntax--function.syntax--name,
-  .syntax--function-call > .syntax--function.syntax--support { color: #005cc5; }
+    // Fix static function color.
+    .syntax--static .syntax--function { color: #24292e; }
 
-  // Fix method call color.
-  .syntax--method-call .syntax--function { color: #24292e; }
+    // Fix function name color.
+    .syntax--function-call > .syntax--function.syntax--name,
+    .syntax--function-call > .syntax--function.syntax--support { color: #005cc5; }
 
-  // Fix return type colon color.
-  .syntax--return-value { color: #24292e; }
+    // Fix method call color.
+    .syntax--method-call .syntax--function { color: #24292e; }
 
-  // Fix phpdoc type color.
-  .syntax--phpdoc {
-    .syntax--type, .syntax--class, .syntax--namespace { color: #6a737d; }
+    // Fix return type colon color.
+    .syntax--return-value { color: #24292e; }
+
+    // Fix phpdoc type color.
+    .syntax--phpdoc {
+      .syntax--type, .syntax--class, .syntax--namespace { color: #6a737d; }
+    }
   }
 }
