@@ -8,7 +8,7 @@ Octocat syntax theme for Atom with GitHub flavored highlighting.
 $ apm install octocat-syntax
 ```
 
-If you want the full GitHub experience you can [download and install the SF Mono font](https://simonfredsted.com/1438).
+If you want the full GitHub experience you can [download and install the SF Mono font](https://simonfredsted.com/1438) on your system.
 
 ## License
 
