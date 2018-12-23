@@ -11,6 +11,13 @@ atom-text-editor {
   // Fix wrap guide color.
   .wrap-guide { background-color: @light-grey; }
 
+  // Fix gutter line-number color.
+  .gutter .line-number {
+    color: rgba(27,31,35,.5);
+
+    &:hover { color: rgba(27,31,35,1); }
+  }
+
   .syntax--js {
     // Fix jsdoc type color.
     .syntax--jsdoc.syntax--support { color: @purple; }
