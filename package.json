@@ -7,8 +7,8 @@
   "repository": "https://github.com/vinkla/octocat-syntax",
   "author": {
     "name": "Vincent Klaiber",
-    "email": "hello@vinkla.com",
-    "url": "vinkla.com"
+    "email": "hello@doubledip.se",
+    "url": "doubledip.se"
   },
   "engines": {
     "atom": ">=1.21.0 <2.0.0"

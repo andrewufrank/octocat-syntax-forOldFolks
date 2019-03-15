@@ -12,4 +12,4 @@ If you want the full GitHub experience you can [download and install the SF Mono
 
 ## License
 
-[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)
+[MIT](LICENSE) © [Vincent Klaiber](https://doubledip.se)
