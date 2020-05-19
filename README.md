@@ -1,7 +1,10 @@
-# Octocat Syntax
+# Octocat Syntax for Old Folks
 
-This package has been archived and abandoned by the owner. It is now read-only.
+For some of us --- perhaps the ones older with poorer eye-sight --- the fad to write 
+text in ever more lighter shades of grey, prefered on a light grey background makes
+text very hard to read 
 
 ## License
-
+andrew u. frank (https://frank.gerastree.at)
+originaly - but abandoned: 
 [MIT](LICENSE) © [Vincent Klaiber](https://doubledip.se)
